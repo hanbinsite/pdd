@@ -1,0 +1,27 @@
+{
+    "name": "hanbin/pdd",
+    "description": "rsa",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "拼多多",
+        "多多进包"
+    ],
+    "authors": [
+        {
+            "name": "hanbin",
+            "email": "1837261009@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^5.5|^7.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Com\\Pdd\\Pop\\Sdk\\": "src/"
+        }
+    }
+}
